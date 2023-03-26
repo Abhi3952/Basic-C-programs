@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int sumof1digit=0;
+	int sumof2digit=0;
+	int arr[7]={1,2,5,44,656,93};
+	for(int i=0;i<=7;i++){
+		if(arr[i]<10){
+			sumof1digit +=arr[i];
+		}
+	
+		else {
+			sumof2digit+=arr[i];
+		}
+	
+		
+	} 
+	cout<<"sum of single digit number is : "<<sumof1digit<<endl;
+		cout<<"sum of double digit number is : "<<sumof2digit<<endl;
+		return 0;
+		}
